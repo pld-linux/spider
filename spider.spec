@@ -13,7 +13,6 @@ Source0:	ftp://sunsite.unc.edu/pub/Linux/games/solitaires/%{name}.tar.Z
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-
 %description
 spider is a particularly challenging double-deck solitaire. Unlike
 most solitaires, it provides extraordinary opportunities for the
@@ -48,7 +47,6 @@ sunar.
 
 %build
 xmkmf -DOverrideDefs=No
-#-DHELPDIR="%{_datadir}/spider"
 
 %{__make} \
 	CDEBUGFLAGS="%{rpmcflags}" \
@@ -56,8 +54,11 @@ xmkmf -DOverrideDefs=No
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install install.man \
-	DESTDIR=$RPM_BUILD_ROOT
+	DESTDIR=$RPM_BUILD_ROOT \
+	BINDIR=%{_bindir} \
+	MANDIR=%{_mandir}/man1
 
 install -d $RPM_BUILD_ROOT%{_datadir}/spider
 install doc.* $RPM_BUILD_ROOT%{_datadir}/spider
