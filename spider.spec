@@ -12,8 +12,6 @@ Source0:	ftp://sunsite.unc.edu/pub/Linux/games/solitaires/%{name}.tar.Z
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 spider is a particularly challenging double-deck solitaire. Unlike
