@@ -9,6 +9,7 @@ Release:	1
 License:	distributable
 Group:		X11/Applications/Games
 Source0:	ftp://sunsite.unc.edu/pub/Linux/games/solitaires/%{name}.tar.Z
+# Source0-md5:	3ffbe6417b497531ff5b46cab7db311f
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
