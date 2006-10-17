@@ -1,0 +1,30 @@
+--- spider/globals.h.orig	1991-09-28 19:46:20.000000000 +0200
++++ spider/globals.h	2006-10-17 20:29:57.216959500 +0200
+@@ -95,7 +95,3 @@
+ #ifdef XAW
+ Bool	can_get_help_files();
+ #endif
+-
+-extern char	*malloc();
+-extern char	*calloc();
+-extern char	*realloc();
+--- spider/movelog.c.orig	1991-09-28 19:46:17.000000000 +0200
++++ spider/movelog.c	2006-10-17 20:31:34.247023500 +0200
+@@ -16,6 +16,7 @@
+ 
+ #include	"defs.h"
+ #include	"globals.h"
++#include	<stdlib.h>
+ #include	<string.h>
+ #include	<sys/file.h>
+ #include	<ctype.h>
+@@ -33,6 +34,9 @@
+ 
+ extern int	cheat_count;
+ 
++static int card_to_int(CardPtr);
++static int restore_game(char *, char *);
++
+ make_deck_cache()
+ {
+ CardPtr	tmp;
