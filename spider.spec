@@ -5,12 +5,15 @@ Summary(pl):	Implementacja pasjansa Spider pod X11
 Summary(tr):	Spider kaðýt oyununun X11 gerçekleþtirmesi
 Name:		spider
 Version:	1.1
-Release:	1
+Release:	2
 License:	distributable
 Group:		X11/Applications/Games
 Source0:	ftp://sunsite.unc.edu/pub/Linux/games/solitaires/%{name}.tar.Z
 # Source0-md5:	3ffbe6417b497531ff5b46cab7db311f
-BuildRequires:	XFree86-devel
+Patch0:		%{name}-c.patch
+BuildRequires:	xorg-cf-files
+BuildRequires:	xorg-lib-libXaw-devel
+BuildRequires:	xorg-util-imake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -44,11 +47,13 @@ sunar.
 
 %prep
 %setup -q -n spider
+%patch0 -p1
 
 %build
 xmkmf -DOverrideDefs=No
 
 %{__make} \
+	CC="%{__cc}" \
 	CDEBUGFLAGS="%{rpmcflags}" \
 	HELPDIR="%{_datadir}/spider"
 
