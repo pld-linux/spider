@@ -1,8 +1,8 @@
 Summary:	X11 implementation of Spider card game
-Summary(de):	X11-Implementierung des Kartenspiels \"Spider\"
-Summary(fr):	Implantation X11 du jeu de cartes Spider
-Summary(pl):	Implementacja pasjansa Spider pod X11
-Summary(tr):	Spider kağıt oyununun X11 gerçekleştirmesi
+Summary(de.UTF-8):   X11-Implementierung des Kartenspiels \"Spider\"
+Summary(fr.UTF-8):   Implantation X11 du jeu de cartes Spider
+Summary(pl.UTF-8):   Implementacja pasjansa Spider pod X11
+Summary(tr.UTF-8):   Spider kaÄŸÄ±t oyununun X11 gerÃ§ekleÅŸtirmesi
 Name:		spider
 Version:	1.1
 Release:	2
@@ -22,27 +22,27 @@ most solitaires, it provides extraordinary opportunities for the
 skillful player to overcome bad luck in the deal by means of careful
 analysis and complex manipulations.
 
-%description -l de
+%description -l de.UTF-8
 spider ist ein ganz besonders anspruchsvolles Solitaire mit doppelten
 Karten. Anders als andere Solitaires bietet es dem geschickten Spieler
-hervorragende Möglichkeiten, durch sorgfältige Analyse und komplexe
-Manipulationen auch ungünstige Situationen zu meistern.
+hervorragende MÃ¶glichkeiten, durch sorgfÃ¤ltige Analyse und komplexe
+Manipulationen auch ungÃ¼nstige Situationen zu meistern.
 
-%description -l fr
-spider est un jeu de solitaire qui, à la différence de la plupart des
-autres solitaires, offre la possibilité au joueur expérimenté de
-surmonter une mauvaise donne par une analyse poussée et des
+%description -l fr.UTF-8
+spider est un jeu de solitaire qui, Ã  la diffÃ©rence de la plupart des
+autres solitaires, offre la possibilitÃ© au joueur expÃ©rimentÃ© de
+surmonter une mauvaise donne par une analyse poussÃ©e et des
 manipulations complexes.
 
-%description -l pl
-Spider jest szczególnie wyzywaj±cym pasjansem. W odró¿nieniu od wielu
-innych, daje wprawnemu graczowi mo¿liwo¶æ przezwyciê¿enia nieudanego
-rozdania poprzez analizê i z³o¿one manipulacje.
+%description -l pl.UTF-8
+Spider jest szczegÃ³lnie wyzywajÄ…cym pasjansem. W odrÃ³Å¼nieniu od wielu
+innych, daje wprawnemu graczowi moÅ¼liwoÅ›Ä‡ przezwyciÄ™Å¼enia nieudanego
+rozdania poprzez analizÄ™ i zÅ‚oÅ¼one manipulacje.
 
-%description -l tr
-spider iki desteli fal oyunudur. Diğer fal oyunlarının aksine,
-dikkatli çözümleme ve karmaşık kullanımlarla iyi bir oyuncunun
-kağıtların dağıtımındaki kötü şansı yenmesini sağlayacak olanaklar
+%description -l tr.UTF-8
+spider iki desteli fal oyunudur. DiÄŸer fal oyunlarÄ±nÄ±n aksine,
+dikkatli Ã§Ã¶zÃ¼mleme ve karmaÅŸÄ±k kullanÄ±mlarla iyi bir oyuncunun
+kaÄŸÄ±tlarÄ±n daÄŸÄ±tÄ±mÄ±ndaki kÃ¶tÃ¼ ÅŸansÄ± yenmesini saÄŸlayacak olanaklar
 sunar.
 
 %prep
