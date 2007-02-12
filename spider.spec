@@ -1,8 +1,8 @@
 Summary:	X11 implementation of Spider card game
-Summary(de.UTF-8):   X11-Implementierung des Kartenspiels \"Spider\"
-Summary(fr.UTF-8):   Implantation X11 du jeu de cartes Spider
-Summary(pl.UTF-8):   Implementacja pasjansa Spider pod X11
-Summary(tr.UTF-8):   Spider kağıt oyununun X11 gerçekleştirmesi
+Summary(de.UTF-8):	X11-Implementierung des Kartenspiels \"Spider\"
+Summary(fr.UTF-8):	Implantation X11 du jeu de cartes Spider
+Summary(pl.UTF-8):	Implementacja pasjansa Spider pod X11
+Summary(tr.UTF-8):	Spider kağıt oyununun X11 gerçekleştirmesi
 Name:		spider
 Version:	1.1
 Release:	2
