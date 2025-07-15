@@ -47,7 +47,7 @@ sunar.
 
 %prep
 %setup -q -n spider
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 xmkmf -DOverrideDefs=No
